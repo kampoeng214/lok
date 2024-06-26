@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.text.SimpleDateFormat
 import java.util.Date
+import groovy.json.JsonOutput
+
+
 
 WebUI.openBrowser('')
 
@@ -35,6 +38,9 @@ WebUI.delay(1)
 String proceedLinkScript = 'document.getElementById("proceed-link").click();'
 
 WebUI.executeJavaScript(proceedLinkScript, null)
+
+// Wait for the "Proceed to" link to appear
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('Object Repository/Page_Elastic/input_Username_username'), 'elastic')
 
@@ -55,20 +61,45 @@ def urls = [
 	'https://10.8.60.18:5601/app/r/s/osfsA'
 ]
 
+// Telegram bot token and chat ID
+String telegramBotToken = "5546381658:AAEdmGEOp6hd892KQnQpHkxUBo7EBM1XJ1w"
+String chatId = "-614880073"
+
+// Function to send image to Telegram
+def sendImageToTelegram(String botToken, String chatId, String imagePath) {
+	def command = [
+		'curl',
+		'-F', "chat_id=${chatId}",
+		'-F', "photo=@${imagePath}",
+		"https://api.telegram.org/bot${botToken}/sendPhoto"
+	]
+	
+	def process = command.execute()
+	process.waitFor()
+	if (process.exitValue() == 0) {
+		println "Image sent to Telegram successfully."
+	} else {
+		println "Failed to send image to Telegram: ${process.err.text}"
+	}
+}
+
 // Iterate through each URL and capture screenshots with unique names
 urls.each { url ->
 	WebUI.navigateToUrl(url)
 	
+	// Add delay after opening URL (e.g., 5 seconds)
+	WebUI.delay(15)
+	
 	// Generate a unique filename based on timestamp
 	String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
-	String screenshotName = "screenshot_${timestamp}.png"
+	String screenshotName = "screenshot_${timestamp}.png"	
+	String screenshotPath = "C:/Users/Lenovo/Pictures/lol/${screenshotName}"
 	
 	// Take screenshot and save with unique filename
-	WebUI.takeScreenshot("C:/Users/Lenovo/Pictures/${screenshotName}") // Save screenshots in a 'Screenshots' folder
+	WebUI.takeScreenshot("C:/Users/Lenovo/Pictures/lol/${screenshotName}") // Save screenshots in a 'Screenshots' folder
 	println "Screenshot captured: ${screenshotName}"
+	sendImageToTelegram(telegramBotToken, chatId, screenshotPath)
+	
+	// Add delay between screenshots (e.g., 5 seconds)
+	WebUI.delay(15)
 }
-
-//WebUI.navigateToUrl('https://10.8.60.18:5601/app/r/s/CEIac')
-
-// Take a screenshot
-//WebUI.takeScreenshot('C:/Users/Lenovo/Pictures/screenshot_${timestamp}.png')
