@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Storage size</name>
+   <tag></tag>
+   <elementGuidId>cffdaae9-3696-4532-a2d7-fc00d856c5cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='EuiPageTemplateInner_01603191-32dc-11ef-a26e-d3bbd3296e26']/div/div[2]/section/div/div[5]/table/thead/tr/th[8]/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e747424a-b545-403e-a567-74c228f5b3ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>euiTableCellContent__text</value>
+      <webElementGuid>4d5f5dda-1d64-4b35-9a18-c5f911ba3db4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Storage size</value>
+      <webElementGuid>0165b77d-ea88-443a-9553-bf9baabbee0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Storage size</value>
+      <webElementGuid>c7c2ac19-e14c-445f-9732-91bf0d2487be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;EuiPageTemplateInner_01603191-32dc-11ef-a26e-d3bbd3296e26&quot;)/div[@class=&quot;euiPageContentBody kbnAppWrapper&quot;]/div[@class=&quot;kbnAppWrapper im-snapshotTestSubject&quot;]/section[@class=&quot;css-1wezpfj-euiPageSection-top-transparent&quot;]/div[@class=&quot;css-143md46-euiPageSection__content&quot;]/div[5]/table[@class=&quot;euiTable indTable euiTable--responsive&quot;]/thead[1]/tr[1]/th[@class=&quot;euiTableHeaderCell&quot;]/button[@class=&quot;euiTableHeaderButton&quot;]/span[@class=&quot;euiTableCellContent&quot;]/span[@class=&quot;euiTableCellContent__text&quot;]</value>
+      <webElementGuid>2c29141e-85fa-457e-8225-85d7692328e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='EuiPageTemplateInner_01603191-32dc-11ef-a26e-d3bbd3296e26']/div/div[2]/section/div/div[5]/table/thead/tr/th[8]/button/span/span</value>
+      <webElementGuid>c382a348-e57b-499b-8145-801315973d5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Docs count'])[1]/following::span[2]</value>
+      <webElementGuid>fc4497a1-93a5-446b-af77-a2a4483b578a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Replicas'])[1]/following::span[4]</value>
+      <webElementGuid>6c03dbea-c679-4c76-ba50-9ad16919acde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data stream'])[1]/preceding::span[1]</value>
+      <webElementGuid>ef226950-86ed-4f9e-b465-a4713c92f1ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cyberark'])[1]/preceding::span[3]</value>
+      <webElementGuid>26b1a52c-9b05-47c8-a208-0a6077d1d7e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Storage size']/parent::*</value>
+      <webElementGuid>38aec975-27ca-4777-8e73-8fb01bf04a8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[8]/button/span/span</value>
+      <webElementGuid>b282f5e9-a85c-4673-a43c-509b03dcde60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Storage size' and (text() = 'Storage size' or . = 'Storage size')]</value>
+      <webElementGuid>64afd6df-7d55-4374-abd3-b9052a475f03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

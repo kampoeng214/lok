@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Log in</name>
+   <tag></tag>
+   <elementGuidId>a9f7ac8c-2209-4e62-bd6c-65d7f0f4a90d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>s</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.euiButton.css-8utmkn-euiButtonDisplay-m-defaultMinWidth-fill-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f8cdc823-836a-4566-bf61-d4a050b769b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>a224fa95-7bd6-4956-b0f3-07d3807cae9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>euiButton css-8utmkn-euiButtonDisplay-m-defaultMinWidth-fill-primary</value>
+      <webElementGuid>8117db2c-66b5-4c42-a49c-138086365741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-subj</name>
+      <type>Main</type>
+      <value>loginSubmit</value>
+      <webElementGuid>5d5ed16b-3da9-469e-a4ea-5256fde1f267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>df79e50a-53b3-456f-bf3e-55f7745e5a6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kibana-body&quot;)/div[@class=&quot;kbnAppWrapper kbnAppWrapper--hiddenChrome&quot;]/div[@class=&quot;kbnAppWrapper&quot;]/div[@class=&quot;loginWelcome login-form&quot;]/div[@class=&quot;loginWelcome__content loginWelcome-body&quot;]/div[@class=&quot;euiFlexGroup css-1drqwgc-euiFlexGroup-responsive-l-flexStart-stretch-row&quot;]/div[@class=&quot;euiFlexItem css-9sbomz-euiFlexItem-grow-1&quot;]/div[@class=&quot;euiPanel euiPanel--plain euiPanel--paddingMedium css-1yz5lbp-euiPanel-grow-m-m-plain-hasShadow&quot;]/form[1]/div[@class=&quot;euiFlexGroup css-dhjvmj-euiFlexGroup-s-flexStart-center-row&quot;]/div[@class=&quot;euiFlexItem css-kpsrin-euiFlexItem-growZero&quot;]/button[@class=&quot;euiButton css-8utmkn-euiButtonDisplay-m-defaultMinWidth-fill-primary&quot;]</value>
+      <webElementGuid>6ad29e94-795b-4a71-8b8f-94294b70e766</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>d5e29a9d-2eb8-44c6-89ff-9ccdf6709b9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kibana-body']/div[3]/div[2]/div/div/div/div/div[3]/form/div[4]/div/button</value>
+      <webElementGuid>cc78dff2-ed16-464f-890d-e79cbfbfbca1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[2]</value>
+      <webElementGuid>cc873555-0165-468d-9d6c-f1b26842440f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[2]</value>
+      <webElementGuid>1c637671-8fdc-4e14-8f2d-6a0e4c0d7679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/button</value>
+      <webElementGuid>76d2541d-fbe4-46a8-ac4d-6265b35648f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>70140bea-6c91-44bc-ade5-960e1584a457</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

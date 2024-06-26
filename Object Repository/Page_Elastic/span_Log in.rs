@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Log in</name>
+   <tag></tag>
+   <elementGuidId>11cbc09c-480b-4667-a835-161fead55a59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kibana-body']/div[3]/div[2]/div/div/div/div/div/form/div[4]/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.css-1bascr2-euiButtonDisplayContent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>33188e05-e7e6-4eba-a8dc-45bddbed096c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1bascr2-euiButtonDisplayContent</value>
+      <webElementGuid>1faba323-a7c2-4fe9-ab33-c0878bff9bd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>5105aea1-a5b4-4393-a965-d28f715dd0ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kibana-body&quot;)/div[@class=&quot;kbnAppWrapper kbnAppWrapper--hiddenChrome&quot;]/div[@class=&quot;kbnAppWrapper&quot;]/div[@class=&quot;loginWelcome login-form&quot;]/div[@class=&quot;loginWelcome__content loginWelcome-body&quot;]/div[@class=&quot;euiFlexGroup css-1drqwgc-euiFlexGroup-responsive-l-flexStart-stretch-row&quot;]/div[@class=&quot;euiFlexItem css-9sbomz-euiFlexItem-grow-1&quot;]/div[@class=&quot;euiPanel euiPanel--plain euiPanel--paddingMedium css-1yz5lbp-euiPanel-grow-m-m-plain-hasShadow&quot;]/form[1]/div[@class=&quot;euiFlexGroup css-dhjvmj-euiFlexGroup-s-flexStart-center-row&quot;]/div[@class=&quot;euiFlexItem css-kpsrin-euiFlexItem-growZero&quot;]/button[@class=&quot;euiButton css-8utmkn-euiButtonDisplay-m-defaultMinWidth-fill-primary&quot;]/span[@class=&quot;css-1bascr2-euiButtonDisplayContent&quot;]</value>
+      <webElementGuid>ece8a8fd-1976-4027-bbc1-8583efb5de01</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kibana-body']/div[3]/div[2]/div/div/div/div/div/form/div[4]/div/button/span</value>
+      <webElementGuid>0622d45f-a2f2-4fd2-a445-97de9a6d20c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[2]</value>
+      <webElementGuid>464a01a6-dba8-4002-a53f-790563216795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::span[2]</value>
+      <webElementGuid>2dbc9033-5d99-45a5-8220-586ddc0802d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>6a07ba08-ca7b-4a8e-a204-eb64c2aea496</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>0c9913da-7baf-49e7-94fd-b98dd6ff73c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>01522c07-46c7-4b66-901d-5442a81b749e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
